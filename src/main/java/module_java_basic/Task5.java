@@ -7,11 +7,11 @@ public class Task5 {
         printArrayDuplicates(dupArray);
     }
 
-    public static void printArrayDuplicates(int[] args) {
-        for (int i = 0; i < args.length; i++) {
-            for (int j = i + 1; j < args.length; j++) {
-                if (args[i] == args[j]) {
-                    System.out.println("Output duplicate: " + args[i]);
+    public static void printArrayDuplicates(int[] y) {
+        for (int i = 0; i < y.length; i++) {
+            for (int j = i + 1; j < y.length; j++) {
+                if (y[i] == y[j]) {
+                    System.out.println("Output duplicate: " + y[i]);
                 }
             }
         }
