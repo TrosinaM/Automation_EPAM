@@ -1,15 +1,18 @@
 package module_java_basic2;
 
 public class NumberHolder {
-    public int anInt;
-    public float aFloat;
+    public int setanInt;
+    public float setaFloat;
+
+    public NumberHolder() {
+    }
 
     public int getAnInt() {
-        return anInt;
+        return setanInt;
     }
 
     public float getaFloat() {
-        return aFloat;
+        return setaFloat;
     }
 }
 
